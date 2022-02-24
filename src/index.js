@@ -51,7 +51,7 @@ function decode(expr) {
         el = el.replace(/00/g, '');
         el = el.replace(/10/g, '.');
         el = el.replace(/11/g, '-');
-        array.push(MORSE_TABLE[e]);
+        array.push(MORSE_TABLE[el]);
     }
 
     return array.join('');
